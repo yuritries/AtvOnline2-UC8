@@ -15,7 +15,7 @@ if (dataEvento > curData) {
   console.log("Cadastro de Evento não permitido (Data Inválida)");
 }
 
-if (idade > 18) {
+if (idade >= 18) {
   console.log(`
 Prossiga com o cadastro do participante!`);
   console.log(
