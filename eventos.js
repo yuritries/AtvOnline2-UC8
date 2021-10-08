@@ -24,7 +24,7 @@ Lista de Participantes: ${partiEventoFuturo},
 Lista de Palestrantes: ${palesEventoFuturo}
 `
   );
-  if (partiEventoFuturo.length < 3) {
+  if (partiEventoFuturo.length < 100) {
     partiEventoFuturo.push(usuario);
     console.log("Cadastro do participante realizado");
     console.log(`Lista de Participantes atualizada: ${partiEventoFuturo}`);
